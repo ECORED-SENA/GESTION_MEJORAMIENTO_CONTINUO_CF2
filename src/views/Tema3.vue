@@ -13,7 +13,7 @@
     .row.tarjeta.fondo-mapa.p-lg-5.p-3.pb-5.bg-rosado.mt-5
       Botones(data-aos="fade-down")
     p.mt-5 Con base en lo anterior, se muestra a continuación la matriz de riesgos a aplicar:
-    .titulo-sexto.color-acento-contenido.mt-5
+    .titulo-sexto.color-acento-contenido-2.mt-5
       h5 Tabla 1
       span Matriz de Riesgos
     .tabla-a.color-acento-botones.mt-5(data-aos="flip-up")
@@ -39,8 +39,8 @@
               .h4 Raro:
               p.mt-3 No es probable que ocurra, pero sí es posible.
             td.borde-azul(style="vertical-align:baseline").p-4.bg-rosa-claro 
-              .h4 Raro:
-              p.mt-3 No es probable que ocurra, pero sí es posible.
+              .h4 Improbable:
+              p.mt-3 Es improbable que ocurra.
           tr
             td(style="vertical-align:baseline").p-4.bg-naranja.borde-azul
               .h4 Catastrófico:
@@ -96,7 +96,10 @@
             td.text-center.borde-azul.bg-verde
               .h4.font-30 L
             td.text-center.borde-azul.bg-verde
-              .h4.font-30 L       
+              .h4.font-30 L     
+    .titulo-sexto.color-acento-contenido-2.mt-5
+      h5 Tabla 1
+      span Matriz de Riesgos  
     .tabla-a.color-acento-botones.mt-5(data-aos="flip-up")
       table        
         tbody
@@ -120,23 +123,23 @@
             td.borde-azul(colspan='2').p-4.bg-rosa-claro.text-center
               .h5.mb-0 Alto riesgo
             td.borde-azul(colspan='3').p-4.bg-rosa-claro
-              p.mb-0 Las actividades en esta categoría contienen niveles inaceptables de riesgo, incluyendo lesiones críticas y catastróficas, que son altamente probables de ocurrir. Las organizaciones deben considerar si deben eliminar el riesgo o modificar las actividades que todavía tienen una “E” después de aplicar todas las estrategias razonables para el manejo de riesgos.
+              p.mb-0 Las actividades en esta categoría contienen serios riesgos potenciales, que son probables de ocurrir. Se aconseja la aplicación de estrategias proactivas de manejo de riesgos para reducirlos. Las organizaciones deben considerar maneras de modificar o eliminar los riesgos inaceptables.
           tr
             td.text-center.borde-azul.bg-amarillo 
               .h4.font-30 M
             td.borde-azul(colspan='2').p-4.bg-rosa-claro.text-center
               .h5.mb-0 Riesgo moderado
             td.borde-azul(colspan='3').p-4.bg-rosa-claro
-              p.mb-0 Las actividades en esta categoría contienen niveles inaceptables de riesgo, incluyendo lesiones críticas y catastróficas, que son altamente probables de ocurrir. Las organizaciones deben considerar si deben eliminar el riesgo o modificar las actividades que todavía tienen una “E” después de aplicar todas las estrategias razonables para el manejo de riesgos.
+              p.mb-0 Las actividades en esta categoría contienen algún nivel de riesgo que es improbable que ocurra. Las organizaciones deben considerar qué puede hacerse para manejar el riesgo y prevenir algún resultado negativo.
           tr
             td.text-center.borde-azul.bg-verde
               .h4.font-30 L
             td.borde-azul(colspan='2').p-4.bg-rosa-claro.text-center
               .h5.mb-0 Bajo riesgo
             td.borde-azul(colspan='3').p-4.bg-rosa-claro
-              p.mb-0 Las actividades en esta categoría contienen niveles inaceptables de riesgo, incluyendo lesiones críticas y catastróficas, que son altamente probables de ocurrir. Las organizaciones deben considerar si deben eliminar el riesgo o modificar las actividades que todavía tienen una “E” después de aplicar todas las estrategias razonables para el manejo de riesgos.
+              p.mb-0 Las actividades en esta categoría contienen riesgo mínimo y son improbables de ocurrir. Las organizaciones pueden proceder a ejecutar estas actividades según lo planeado.
     .titulo-segundo.mt-5
-      #t_3_1.h2 3.1  Benchmarking
+      #t_3_1.h2 3.1  Definición de riesgo empresarial
     .bloque-texto-a.color-secundario.p-4.p-md-5.mt-5(data-aos="fade") 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0
@@ -144,7 +147,7 @@
             img(src="@/assets/template/tema-3-5.png", alt="Texto que describa la imagen")
         .col-lg-9
           .bloque-texto-a__texto.p-4
-            p Todas las organizaciones deben hacer un análisis de contexto que contenga el estudio interno y el estudio externo de lo que se va a desarrollar en la empresa. Este análisis debe ser íntegro y desinteresado ya que puede revelar aspectos importantes para la empresa, dejando de lado cualquier tipo de prejuicios que puedan tener y/o qué enfoque de mala manera lo que se busca hacer, que es conocer dónde se encuentra la empresa, para saber hacia dónde se debe dirigir. Muchas empresas piensan que hacen análisis de contexto, pero no es así realmente por lo que se acaba de comentar y se pierde el trabajo que se haya hecho porque se hizo mal enfocado (Análisis del contexto organizacional, 2016).
+            p Se conoce como riesgo empresarial a cualquier circunstancia, evento o acontecimiento que afecte negativamente el correcto desarrollo de las actividades de una empresa y que conlleve pérdidas económicas. Dicho de otra forma, este riesgo afecta o incide directamente en el resultado financiero de la organización.
     .titulo-segundo.mt-5
       #t_3_2.h2 3.2  Tipos de riesgo empresarial
     p.mt-5 Se trata, en esencia, de circunstancias, sucesos o eventos adversos que impiden el normal desarrollo de las actividades de una empresa y, en general, tienen repercusiones económicas para sus responsables. Se dividen en diferentes categorías, como se menciona a continuación:

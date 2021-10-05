@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 5
-      h1 Riesgos
+      h1 Evaluación y procedimientos organizacionales
     .row.mt-5.bg-image
       .col-6.p-5
         p Es importante tener muy en cuenta que las organizaciones son, como las define North (1990), economista norteamericano nacido en Cambridge, “grupos de individuos vinculados por la intención común de lograr metas”. Teniendo en cuenta esto y conociendo lo relevante de las acciones que dirijan a las empresas al mejoramiento continuo, se debe empezar con una evaluación de capacidades, cuyo objetivo es “ofrecer una idea clara de la capacidad de un país o de un sector en términos de puntos fuertes o débiles y de activos de los que dispone. Se trata de un enfoque estructurado para el análisis de la capacidad en tres dimensiones: individuos, organizaciones y entorno favorable” (FAO, 2015). Posterior a esta gestión, se puede realizar el análisis organizacional, con el fin de lograr o ahondar en un conocimiento más recóndito de lo que puede ocasionar fragilidad a la empresa y encontrar oportunidades de mejora. Para conseguir esto, se deben considerar factores culturales, políticos y de intereses internos. 
@@ -68,6 +68,8 @@
       .col-4
         figure
           img(src='@/assets/template/tema-5-9.png', alt='Texto que describa la imagen')
+    .titulo-segundo.mt-5
+      #t_5_1.h2 5.1 Normatividad empresarial 
     .row(data-aos="slide-left").mt-5
       .col-12
         .cajon.color-secundario.p-4.mb-4
@@ -89,11 +91,10 @@
                 .col-12.py-3
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h3.mb-1 Guìa_Tènica_Colombiana_GTC-ISO 9004:2018  
-                      p.text-small.mb-0.mt-2 Para afianzar sus conocimientos en la norma orientada a lograr el éxito sostenido en la empresa, diríjase a la carpeta    
-                      p.text-small #[strong Anexos/ Anexo1_NTC-ISO- 9004 2018 _Guia_Tecnica_Colombiana_ orientación para lograr el éxito sostenido.pdf]  
+                      h3.mb-1 Guía Técnica Colombiana GTC-ISO 9004:2018  
+                      p.text-small.mb-0.mt-2 Para afianzar sus conocimientos en la norma orientada a lograr el éxito sostenido en la empresa. 
                     .col-sm-auto
-                      a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-contenido(:href="obtenerLink('/downloads/NTC-ISO- 9004_2018 _Guia_Tecnica_Colombiana.pdf')" target="_blank")
                         span.text-rojo Descargar
                         i.fas.fa-file-download.text-rojo
     BotonesB(data-aos="fade-up")
@@ -101,7 +102,7 @@
 
 
     .titulo-segundo
-      #t_5_1.h2 5.2  Importancia del presupuesto como mejora continua
+      #t_5_2.h2 5.2  Gestión de calidad, seguridad y salud en el trabajo
     .row.mt-5.zoom-in
       .col-7
         p El Ministerio del Trabajo, comprometido con las políticas de protección de los trabajadores colombianos y en desarrollo de las normas y convenios internacionales, estableció el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), el cual debe ser implementado por todos los empleadores, y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora, con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales.

@@ -49,9 +49,9 @@
                     .col.mb-3.mb-sm-0
                       h3.mb-1 El reporting herramienta clave para mejorar la gestión empresarial 
                       p.text-small.mb-0.mt-2  Para afianzar sus conocimientos en las herramientas de mejora empresarial, le invitamos a visitar el  Ebook en la url 
-                      a.text-small #[strong https://accid.org/wp-content/uploads/2018/11/Ebook_reporting_SCG_Estrategia_ACCID.pdf]  
+                      //a.text-small #[strong https://accid.org/wp-content/uploads/2018/11/Ebook_reporting_SCG_Estrategia_ACCID.pdf]  
                     .col-sm-auto
-                      a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Estrategia_ACCID.pdf')" target="_blank")
                         span.text-rojo Descargar
                         i.fas.fa-file-download.text-rojo
                 .col-12.mt-3
@@ -59,9 +59,9 @@
                     .col.mb-3.mb-sm-0
                      h3.mb-1 Presupuesto como herramienta de gestión
                       p.text-small.mb-0.mt-2 Para afianzar sus conocimientos en las herramientas de mejora empresarial, le invitamos a ver el  Webinar en YouTube 
-                      a.text-small #[strong https://youtu.be/Iw0Wkw1BFWA]    
+                      //a.text-small #[strong https://youtu.be/Iw0Wkw1BFWA]    
                     .col-sm-auto
-                      a.boton.color-acento-contenido(:href="obtenerLink('https://youtu.be/Iw0Wkw1BFWA')" target="_blank")
+                      a.boton.color-acento-contenido(href="https://youtu.be/Iw0Wkw1BFWA" target="_blank")
                         span.text-rojo Enlace web
                         i.fas.fa-link.text-rojo
     .row.mt-5

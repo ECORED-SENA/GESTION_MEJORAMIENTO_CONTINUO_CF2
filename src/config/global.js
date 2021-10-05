@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Entorno, diagnóstico y conocimiento de empresa.',
+    componenteFormativo:
+      'Manejo de la información, riesgos y evaluación de procesos.',
     descripcionCurso:
-      'El éxito de una empresa depende en buena parte de como esta se relacione con su entorno, el contexto, diagnóstico y conocimiento de los factores internos y externos que le permitan ayudar a la toma de decisiones estratégicas y su operación. Se establece un análisis dependiendo del sector a analizar como factores económicos, socioculturales, tecnológicos, medioambientales y del sector que la empresa espera desarrollar.',
+      'Este componente formativo se propone para que los directivos, alta gerencia e incluso mandos medios adopten el mejoramiento continuo como parte integral de la empresa.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -220,32 +221,32 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Benchmarking:',
+      termino: 'Benchmarking',
       significado:
         'Como dice Michael J. Spendolini, es un proceso sistemático y continuo para evaluar los productos, servicios y procesos de trabajo de las organizaciones que se reconocen como representantes de las mejores prácticas, con el propósito de realizar mejoras organizacionales.',
     },
     {
-      termino: 'Consultor:',
+      termino: 'Consultor',
       significado:
         'Persona experta en una materia o actividad sobre la que ejecuta una asesoría profesional.',
     },
     {
-      termino: 'ESAN:',
+      termino: 'ESAN',
       significado:
         'Es la primera institución académica de posgrado en Administración creada en Hispanoamérica. Fue establecida el 25 de julio de 1963, en el marco de un convenio entre los gobiernos del Perú y los Estados Unidos de América. Su organización y puesta en marcha fue confiada a la Escuela de Negocios para Graduados de la Universidad de Stanford, California. Se encuentra en Lima, Perú.',
     },
     {
-      termino: 'Know-how:',
+      termino: 'Know-how',
       significado:
         'Conjunto de prácticas o actividades de una empresa que son de su exclusivo conocimiento y que dan su impronta ante el mercado y competidores.',
     },
     {
-      termino: 'Plan, do, check, act:',
+      termino: 'Plan, do, check, act',
       significado:
         'Ciclo de Deming en su idioma original, inglés, que corresponde a: planear, hacer, revisar y actuar.',
     },
     {
-      termino: 'Sistémico:',
+      termino: 'Sistémico',
       significado:
         'Dicho de entidades, organizaciones o personas que se rigen o ajustan a un sistema. ',
     },
@@ -301,23 +302,39 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor Pedagógico',
-        centro:
-          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
       {
-        nombre: 'José Luis Rangel Ayala',
-        cargo: 'Experto Temático',
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios. CIES',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'José Luis Rangel Ayala',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios. CIES - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Gloria Lida Álzate Suárez',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Correción de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -325,23 +342,66 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Gloria Lida Álzate Suárez',
-        cargo: 'Diseñadora Instruccional',
+        nombre: 'Luis Fernando Sarmiento',
+        cargo: 'Diseño web',
         centro:
-          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Darío González',
-        cargo: 'Corrección de estilo',
-        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa Villamizar',
+        cargo: 'Validación de diseño y contenio',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
@@ -352,25 +412,4 @@ export default {
       },
     ],
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

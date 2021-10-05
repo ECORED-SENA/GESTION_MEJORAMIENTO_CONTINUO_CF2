@@ -1,1 +1,1 @@
-module.exports = 'Entorno, diagnóstico y conocimiento de empresa.'
+module.exports = 'Manejo de la información, riesgos y evaluación de procesos.'

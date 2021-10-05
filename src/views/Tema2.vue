@@ -87,8 +87,8 @@
               p Realizar el seguimiento de  procesos respecto a políticas, objetivos y requisitos.
               figure
                 img(src="@/assets/template/tema-2-12.svg", alt="Texto que describa la imagen").w-50.margin-0-auto     
-    p.mt-5 Este ciclo no tiene fin, lo que hace que las acciones se mantengan indefinidamente para seguir en el proceso de mejoramiento continuo.     
-    .titulo-segundo.mt-5(data-aos="fade-up")
+            p.mt-5 Este ciclo no tiene fin, lo que hace que las acciones se mantengan indefinidamente para seguir en el proceso de mejoramiento continuo.     
+    .titulo-segundo.mt-5
       #t_2_2.h2 2.2  Benchmarking
     .row.mt-5(data-aos="flip-right")
       .col-4.col-lg-6
@@ -154,18 +154,11 @@
           .col-12.col-lg-8
             .h4.font-25 Benchmarking genérico
             p.mt-3 Independientemente del sector económico, del tipo de empresa, o de la actividad económica a que se dediquen las empresas, hay procesos y funciones que son idénticos, lo que permite que se descubra en ellas buenas prácticas, labores y métodos que no se estén realizando en la industria propia de quien realice la investigación. (Gisbert y Raissouni, 2014)
-    .titulo-segundo.mt-5(data-aos="fade-up")
+    .titulo-segundo.mt-5
       #t_2_3.h2 2.3  Auditorías de calidad
     .row.mt-5
       .col-12.col-lg-7
-        .row
-          .col-11(data-aos="flip-right")
-            a.anexo.aguamarina.mb-4.mb-lg-0(href="https://youtu.be/4by9PtD7qDw" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link-aguamarina.svg")
-              .anexo__texto
-                p Enlace web. video: https://youtu.be/4by9PtD7qDw
-        p.mt-5 Se puede definir auditoría de calidad al conjunto de acciones independientes, sistemáticas, documentadas y sostenidas en el tiempo, que se hacen para que, por intermedio de mediciones, se verifique cómo es el comportamiento del sistema de calidad implementado en la empresa y si ha aportado para el logro de los objetivos establecidos.
+        p.mt-2 Se puede definir auditoría de calidad al conjunto de acciones independientes, sistemáticas, documentadas y sostenidas en el tiempo, que se hacen para que, por intermedio de mediciones, se verifique cómo es el comportamiento del sistema de calidad implementado en la empresa y si ha aportado para el logro de los objetivos establecidos.
         p.mt-3 ¿Cuál es el sentido o razón de ser de una auditoría de calidad? Es establecer y comprobar si las actividades que se han ejecutado son las adecuadas para los objetivos propuestos de la organización.
       .col-4.col-lg-5.align-self-center
         figure
@@ -183,11 +176,11 @@
                     img(src="@/assets/template/icono-link-aguamarina.svg")
                   .anexo__texto
                     p Enlace web. video: https://youtu.be/yjTzSupLG64
-            p.mt-3 Se ejecuta por colaboradores de la misma organización con el objetivo de obtener datos de interés que permitan llevar a cabo o realizar los correctivos necesarios, bien sean de manera preventiva o como acciones de mejora. Su principal objetivo es verificar que el sistema de gestión de calidad se encuentra alineado y acorde con lo dispuesto en la planificación inicial de la empresa. También sirve para ver si hay algún sistema de calidad implementado. Deben ser continuas, sistemáticas, planificadas y programadas. Quienes las realizan son auditores internos debidamente capacitados para esa labor.
+            p.mt-3 Se ejecuta por colaboradores de la misma organización con el objetivo de obtener datos de interés que permitan llevar a cabo o realizar los correctivos necesarios, bien sean de manera preventiva o como acciones de mejora. Su principal objetivo es verificar que el sistema de gestión de calidad se encuentra alineado y acorde con lo dispuesto en la planificación inicial de la empresa, esta también sirve para ver si hay algún sistema de calidad implementado, las auditorias deben ser continuas, sistemáticas, planificadas y programadas. Quienes las realizan son auditores internos debidamente capacitados para esa labor.
           .col-4.col-lg-5.align-self-center
             figure
               img(src="@/assets/template/tema-2-20.png", alt="Texto que describa la imagen")
-      .py-4.py-md-5(titulo="Auditoría interna" :icono="require('@/assets/template/tema-2-23.svg')")
+      .py-4.py-md-5(titulo="Auditoría externa" :icono="require('@/assets/template/tema-2-23.svg')")
         .row
           .col-12.col-lg-7
             .h4 Auditoría externa            
