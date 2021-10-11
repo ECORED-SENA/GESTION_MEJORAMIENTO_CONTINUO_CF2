@@ -15,7 +15,7 @@
     p.mt-5 Con base en lo anterior, se muestra a continuación la matriz de riesgos a aplicar:
     .titulo-sexto.color-acento-contenido-2.mt-5
       h5 Tabla 1
-      span Matriz de Riesgos
+      span Matriz de Riesgos - Probabilidad
     .tabla-a.color-acento-botones.mt-5(data-aos="flip-up")
       table
         thead(style="border: 0px solid")
@@ -98,8 +98,8 @@
             td.text-center.borde-azul.bg-verde
               .h4.font-30 L     
     .titulo-sexto.color-acento-contenido-2.mt-5
-      h5 Tabla 1
-      span Matriz de Riesgos  
+      h5 Tabla 2
+      span Matriz de Riesgos - Tipos 
     .tabla-a.color-acento-botones.mt-5(data-aos="flip-up")
       table        
         tbody
