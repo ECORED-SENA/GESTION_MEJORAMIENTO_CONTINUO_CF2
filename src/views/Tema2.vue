@@ -22,7 +22,6 @@
                 img(src="@/assets/template/tema-2-2.png", alt="Texto que describa la imagen")
               figure.image-cover
                 img(src="@/assets/template/tema-2-1.svg", alt="Texto que describa la imagen")
-               
             td.p-0.position-relative 
               figure
                 img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen")
@@ -90,13 +89,16 @@
             p.mt-5 Este ciclo no tiene fin, lo que hace que las acciones se mantengan indefinidamente para seguir en el proceso de mejoramiento continuo.     
     .titulo-segundo.mt-5
       #t_2_2.h2 2.2  Benchmarking
-    .row.mt-5(data-aos="flip-right")
-      .col-4.col-lg-6
-        a.anexo.aguamarina.mb-4.mb-lg-0(href="https://youtu.be/4by9PtD7qDw" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link-aguamarina.svg")
-          .anexo__texto
-            p Enlace web. video: https://youtu.be/4by9PtD7qDw
+    //- .row.mt-5(data-aos="flip-right")
+    //-   .col-4.col-lg-6
+    //-     a.anexo.aguamarina.mb-4.mb-lg-0(href="https://youtu.be/4by9PtD7qDw" target="_blank")
+    //-       .anexo__icono
+    //-         img(src="@/assets/template/icono-link-aguamarina.svg")
+    //-       .anexo__texto
+    //-         p Enlace web. video: https://youtu.be/4by9PtD7qDw
+    figure.mt-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4by9PtD7qDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-5
       .col-12.col-lg-7
         p Toda actividad que tenga como referencia la gestión o trabajo que haga la competencia será conocida como Benchmarking y, como lo dice claramente Michael J. Spendolini, fundador y Presidente de MJS Associates y autor de más de 50 artículos de benchmarking, entre ellos best sellers como “Benchmarking Book”, se trata de “un proceso sistemático y continuo para evaluar los productos, servicios y procesos de trabajo de las organizaciones que se reconocen como representantes de las mejores prácticas, con el propósito de realizar mejoras organizacionales” (Gisbert y Raissouni, 2014).
@@ -164,18 +166,21 @@
         figure
           img(src="@/assets/template/tema-2-19.png", alt="Texto que describa la imagen")
     .h4.mt-5 Tipos de auditorías
+    figure.mt-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yjTzSupLG64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     TabsB.color-acento-botones.mt-3(data-aos="flip-up")
       .py-4.py-md-5(titulo="Auditoría interna" :icono="require('@/assets/template/tema-2-22.svg')")
         .row
           .col-12.col-lg-7
             .h4 Auditoría interna
-            .row.mt-3
-              .col-11(data-aos="flip-right")
-                a.anexo.aguamarina.mb-4.mb-lg-0(href="https://youtu.be/yjTzSupLG64" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-link-aguamarina.svg")
-                  .anexo__texto
-                    p Enlace web. video: https://youtu.be/yjTzSupLG64
+            //- .row.mt-3
+            //-   .col-11(data-aos="flip-right")
+            //-     a.anexo.aguamarina.mb-4.mb-lg-0(href="https://youtu.be/yjTzSupLG64" target="_blank")
+            //-       .anexo__icono
+            //-         img(src="@/assets/template/icono-link-aguamarina.svg")
+            //-       .anexo__texto
+            //-         p Enlace web. video: https://youtu.be/yjTzSupLG64
             p.mt-3 Se ejecuta por colaboradores de la misma organización con el objetivo de obtener datos de interés que permitan llevar a cabo o realizar los correctivos necesarios, bien sean de manera preventiva o como acciones de mejora. Su principal objetivo es verificar que el sistema de gestión de calidad se encuentra alineado y acorde con lo dispuesto en la planificación inicial de la empresa, esta también sirve para ver si hay algún sistema de calidad implementado, las auditorias deben ser continuas, sistemáticas, planificadas y programadas. Quienes las realizan son auditores internos debidamente capacitados para esa labor.
           .col-4.col-lg-5.align-self-center
             figure
