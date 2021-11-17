@@ -181,7 +181,7 @@
             //-         img(src="@/assets/template/icono-link-aguamarina.svg")
             //-       .anexo__texto
             //-         p Enlace web. video: https://youtu.be/yjTzSupLG64
-            p.mt-3 Se ejecuta por colaboradores de la misma organización con el objetivo de obtener datos de interés que permitan llevar a cabo o realizar los correctivos necesarios, bien sean de manera preventiva o como acciones de mejora. Su principal objetivo es verificar que el sistema de gestión de calidad se encuentra alineado y acorde con lo dispuesto en la planificación inicial de la empresa, esta también sirve para ver si hay algún sistema de calidad implementado, las auditorias deben ser continuas, sistemáticas, planificadas y programadas. Quienes las realizan son auditores internos debidamente capacitados para esa labor.
+            p.mt-3 Se ejecuta por colaboradores de la misma organización con el objetivo de obtener datos de interés que permitan llevar a cabo o realizar los correctivos necesarios, bien sean de manera preventiva o como acciones de mejora. Su principal objetivo es verificar que el Sistema de Gestión de Calidad se encuentra alineado y acorde con lo dispuesto en la planificación inicial de la empresa, esta también sirve para ver si hay algún sistema de calidad implementado, las auditorias deben ser continuas, sistemáticas, planificadas y programadas. Quienes las realizan son auditores internos debidamente capacitados para esa labor.
           .col-4.col-lg-5.align-self-center
             figure
               img(src="@/assets/template/tema-2-20.png", alt="Texto que describa la imagen")
@@ -189,7 +189,7 @@
         .row
           .col-12.col-lg-7
             .h4 Auditoría externa            
-            p.mt-3 Se realiza por medio de organizaciones externas, independientes y autorizadas por la empresa contratante, cuyo principal objetivo es conseguir la certificación del sistema de gestión de calidad, y así poder presentarla a sus clientes actuales, potenciales y proveedores, aumentando la confianza en la empresa. De igual forma, sirve como soporte para algunos procesos o participar en convocatorias o licitaciones con el Estado. 
+            p.mt-3 Se realiza por medio de organizaciones externas, independientes y autorizadas por la empresa contratante, cuyo principal objetivo es conseguir la certificación del Sistema de Gestión de Calidad, y así poder presentarla a sus clientes actuales, potenciales y proveedores, aumentando la confianza en la empresa. De igual forma, sirve como soporte para algunos procesos o participar en convocatorias o licitaciones con el Estado. 
           .col-4.col-lg-5.align-self-center
             figure
               img(src="@/assets/template/tema-2-21.png", alt="Texto que describa la imagen")

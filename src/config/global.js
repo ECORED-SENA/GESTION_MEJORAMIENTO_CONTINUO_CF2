@@ -113,7 +113,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.2',
-            titulo: 'Gestión de calidad, seguridad y salud en el trabajo',
+            titulo: 'Gestión de Calidad, Seguridad y Salud en el Trabajo',
             hash: 't_5_2',
           },
         ],
@@ -407,6 +407,11 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Alvaro Andres Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },

@@ -73,7 +73,7 @@ export default {
         pos_y: '7.1%',
         titulo: 'IEC 27002:2013',
         texto:
-          'Stántard para la seguridad de la información (manejo de errores, fallas, brechas y seguridad técnica).',
+          'Estántard para la seguridad de la información (manejo de errores, fallas, brechas y seguridad técnica).',
       },
       {
         img: require('@/assets/template/tema1-boton7-1.png'),

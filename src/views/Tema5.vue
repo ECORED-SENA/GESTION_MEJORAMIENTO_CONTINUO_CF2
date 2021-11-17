@@ -19,7 +19,7 @@
                 img(src='@/assets/template/tema-5-2.svg', alt='Texto que describa la imagen').w-75.margin-0-auto
             .col-10
               p.mt-3 Identificar las expectativas de los actores clave respecto a cómo será usada la información que surja como producto del análisis.
-          .row(numero="2" titulo="Verificar qué se cuente con las habilidades necesarias ")
+          .row(numero="2" titulo="Verificar que se cuente con las habilidades necesarias ")
             .col-2
               figure
                 img(src='@/assets/template/tema-5-3.svg', alt='Texto que describa la imagen').w-75.margin-0-auto
@@ -102,12 +102,12 @@
 
 
     .titulo-segundo
-      #t_5_2.h2 5.2  Gestión de calidad, seguridad y salud en el trabajo
+      #t_5_2.h2 5.2  Gestión de Calidad, Seguridad y Salud en el Trabajo
     .row.mt-5.zoom-in
       .col-7
         p El Ministerio del Trabajo, comprometido con las políticas de protección de los trabajadores colombianos y en desarrollo de las normas y convenios internacionales, estableció el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), el cual debe ser implementado por todos los empleadores, y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora, con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales.
         p.mt-3 El sistema de gestión aplica a todos los empleadores públicos y privados, los trabajadores dependientes e independientes, los trabajadores cooperados, los trabajadores en misión, los contratantes de personal bajo modalidad de contrato civil, comercial o administrativo, las organizaciones de economía solidaria y del sector cooperativo, las empresas de servicios temporales, las agremiaciones o asociaciones que afilian trabajadores independientes al Sistema de Seguridad Social Integral; las administradoras de riesgos laborales; la Policía Nacional, en lo que corresponde a su personal no uniformado y al personal civil de las Fuerzas Militares. Institucional y jurídicamente, fue determinado mediante Decreto 1072 de 2015 Libro 2, Parte 2, Título 4, Capítulo 6. 
-        p.mt-3 De acuerdo con los lineamientos establecidos desde el marco normativo, se invita a socializar la conferencia web1 del Sistema de gestión de seguridad y salud en el trabajo (SG-SST).
+        p.mt-3 De acuerdo con los lineamientos establecidos desde el marco normativo, se invita a socializar la conferencia web1 del Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST).
       .col-5
         figure
           img(src="@/assets/template/tema-5-13.svg", alt="Texto que describa la imagen")
@@ -123,10 +123,10 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h3.mb-1 Conferencia Web 1  SGSST  
-                      p.text-small.mb-0.mt-2 Para afianzar sus conocimientos en la normatividad del sistema de gestión de seguridad y salud en el trabajo, le invitamos a ver la video conferencia  web en la url 
+                      p.text-small.mb-0.mt-2 Para afianzar sus conocimientos en la normatividad del Sistema de Gestión de Seguridad y Salud en el Trabajo, le invitamos a ver la video conferencia  web en la url 
                       a #[strong https://www.youtube.com/watch?v=_pv-B5YDWBQ]
                     .col-sm-auto
-                      a.boton.color-acento-contenido(:href="obtenerLink('https://www.youtube.com/watch?v=_pv-B5YDWBQ')" target="_blank")
+                      a.boton.color-acento-contenido(href="https://www.youtube.com/watch?v=_pv-B5YDWBQ" target="_blank")
                         span.text-rojo Enlace web
                         i.fas.fa-link.text-rojo
 </template>
